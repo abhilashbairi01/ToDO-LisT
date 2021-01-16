@@ -1,0 +1,186 @@
+#first
+{
+  width:100vw;
+ height: 100vh;
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.jpg");
+  z-index: 20;
+  position: absolute;
+} 
+
+.a{
+  font-size: 100px;
+  font-family: 'Trade Winds', cursive;
+  display:inline;
+  color:black;
+  animation-name:abhi1;
+  animation-duration:2s;
+  animation-iteration-count:1; 
+  top: 200px;
+  position: absolute;
+  animation-fill-mode: forwards;
+ 
+}
+@keyframes abhi1{
+  0% {left:0px;}
+  75% {left:400px;}
+  100% {left:380px;}
+}
+.b{
+  font-size: 100px;
+  font-family: 'Trade Winds', cursive;
+  color:black;
+  display:inline ;
+  animation-name:abhi2;
+  animation-duration:2s;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+  top:200px;
+  position: absolute;
+
+
+}
+@keyframes abhi2{
+  0% {right:0px;}
+  75% {right:400px;}
+  100%{right:380px;}
+}
+#click
+{
+  width:160px;
+  height:40px;
+  border: 1px black;
+  top: 400px;
+  position: absolute;
+  font-family: 'Bangers', cursive;
+  border-radius: 15px;
+  left:580px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.c
+{
+  top: 370px;
+  position: absolute;
+  font-size: 20px;
+  font-family:  'Trade Winds', cursive;
+  right: 30px;
+  animation-name:abhi;
+  animation-iteration-count:1;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes abhi{
+  0% {opacity: 0;}
+  25% {opacity: 0;}
+  50%  {opacity: 0;}
+  75%  {opacity: 0;}
+  100%{opacity: 1;}
+}
+#second
+{
+ position: relative;
+ z-index: 10;
+ 
+}
+.head
+{
+  border: 2px solid;
+  text-align: center;
+  font-family:  'Potta One', cursive;
+  padding: 20px 400px 20px 400px;
+  
+  
+}
+span{
+  font-size: 40px;
+  
+ 
+}
+#todoinput
+{
+  border: 1px solid;
+  width: 450px;
+  height:40px;
+  font-size: 20px;
+  margin-left: 350px;
+}
+#plus
+{
+  width: 150px;
+  height: 44px;
+  text-align: center;
+  font-size: 16px;
+  border: groove;
+  background-color: white;
+  cursor: pointer;
+}
+#clear
+{
+  width: 150px;
+  height: 44px;
+  text-align: center;
+  background-color: white;
+  border: groove;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo{
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 15px;
+  border:transparent;
+  border-radius: 15px;
+  width: 760px;
+  margin-left: 350px;
+}
+
+.trash-button
+{
+  font-size: 27px;
+  float: right;
+  margin-right: 40px;
+  align-items: center;
+  border: 0px;
+  color:red;
+  background-color:white;
+  cursor: pointer;
+}
+.complete-button
+{
+  font-size: 27px;
+  float: right;
+  margin-right: 30px;
+  align-items: center;
+  border: 0px;
+  color:lightgreen;
+  background-color:white;
+  cursor: pointer;
+
+
+}
+.trash-button:hover
+{
+  background-color: #F5F5F5;
+}
+.complete-button:hover
+{
+ background-color: #F5F5F5;
+}
+.opa
+{
+  opacity: 0.5;
+}
+body
+{
+  background-image: url("https://rhythm-eg.com/wp-content/uploads/2019/06/Allservices-portfolio-Background.jpg");
+
+}
+
